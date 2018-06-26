@@ -10,6 +10,25 @@ Here is what I am using:
 
 Everything else can be found in package.json
 
+## Running
+
+In order to run this project, first clone the repo.
+
+* Make sure you have npm installed.
+  *  `sudo apt install npm`
+* Upgrade to the latest version
+  * `sudo npm install -g npm`
+* Install Angular-CLI
+  * `sudo npm install -g @angular/cli`
+* Check your version of Node, Angular, and Angular CLI
+  * `ng -v`
+* Install all of the packages from package.json (once you are in the project directory)
+  * `npm install`
+* Run the Angular Development Server
+  * `ng serve --open`
+  * If you just use `ng serve`, open your favorite browser and navigate to localhost:4200.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
