@@ -31,6 +31,7 @@ export class OlMapComponent implements OnInit {
       view: new OlView({
         center: OlProj.fromLonLat([0,0]),
         zoom: 3,
+        minZoom:3,
         /* extent takes the values in the order [minX, minY, maxX, maxY].
            This enables infinite horizontal scrolling while still not letting
            the user move the map out of the view port. For help finding good 
